@@ -1,9 +1,3 @@
-variable "aws_region" {
-  type = string
-  description = "Default AWS Region"
-  default = "us-east-2"
-}
-
 variable "s3_bucket_name" {
   type = string
   description = "S3 bucket unique name to be assigned"
