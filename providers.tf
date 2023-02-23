@@ -7,5 +7,5 @@ terraform {
       version = ">= 4.5"
     }
   }
-  provider "aws" {}
 }
+provider "aws" {}
