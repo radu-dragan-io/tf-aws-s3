@@ -16,3 +16,8 @@ variable "s3_acl" {
   type = string
   description = "S3 public or private access"
 }
+
+variable "aws_region" {
+  type = string
+  description = "region"
+}
